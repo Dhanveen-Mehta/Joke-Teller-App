@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+#main-heading{
+    margin-top: 15px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 650px;
+}
+
+#main-heading:hover{
+    transform: scale(1.2);
+    border: 1px solid black;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    
+
+}
