@@ -75,6 +75,10 @@ body{
     background-color: bisque;
     position: absolute;
     top: 200px;
-    left: 100px  
-
+    left: 100px;
+    padding: 25px;
+    line-height: 55px;
+    font-size: large;
+    /* text-transform: capitalize; */
+    font-style: italic;
 }
