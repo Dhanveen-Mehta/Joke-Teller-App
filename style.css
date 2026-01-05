@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0px;
-    background-color: aliceblue;
+}
+
+body{
+    background-color: rgb(207, 231, 252);
+
 }
 
 #main-heading{
@@ -14,10 +18,63 @@
 
 #main-heading:hover{
     transform: scale(1.2);
-    border: 1px solid black;
+    border: 1px solid rgb(207, 231, 252);
     transition-duration: 1s;
     transition-property: all;
     transition-timing-function: ease-in-out;
+    border-radius: 60px;
     
+
+}
+
+#get-joke{
+    background-color: azure;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 60px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+
+
+
+#get-joke:hover{
+    transform: scale(1.05);
+    background-color: rgb(196, 253, 253);
+    font-weight:900;
+
+}
+
+#type-of-joke{
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(189, 246, 227);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+    left: 600px    
+
+
+
+
+}
+
+
+#output-area{
+    width: 1500px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: bisque;
+    position: absolute;
+    top: 200px;
+    left: 100px  
 
 }
